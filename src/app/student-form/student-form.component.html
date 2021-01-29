@@ -1,0 +1,16 @@
+<form class="student-data" #studentData = "ngForm" (ngSubmit) = "dataDisplay(studentData.value)">
+    <label for="roll">Roll Number</label><br>
+    <input type="number" name="roll" id="roll" ngModel><br>
+    <label for="name">Student Name</label><br>
+    <input type="text" name="name" id="name" ngModel><br>
+    <label for="email">Email</label><br>
+    <input type="email" name="email" id="email" ngModel><br>
+    <label for="city">City</label><br>
+    <input type="text" name="city" id="city" ngModel><br><br>
+    <input class="subButton" type="submit" value="Submit"><br>
+</form>
+<h3>Display Data</h3>
+<p class="info">Roll : {{roll}} <br> 
+   Name : {{name}}<br>
+   Email : {{email}}<br>
+   City : {{city}}</p>
