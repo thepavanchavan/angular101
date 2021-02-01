@@ -9,6 +9,7 @@ import { DesignutilityService } from './appService/designutility.service';
 import { StudentFormComponent } from './student-form/student-form.component';
 import { FormsModule } from '@angular/forms';
 import { RouterModule, Routes } from '@angular/router';
+import { NgforComponent } from './ngfor/ngfor.component';
 
 const appRoutes: Routes=[
   {path:'', component:StudentFormComponent},
@@ -20,6 +21,7 @@ const appRoutes: Routes=[
     HelloWorldComponent,
     DateComponent,
     StudentFormComponent,
+    NgforComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,17 @@
+<p>Applied-ngFor</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sr</th>
+            <th>Name</th>
+            <th>City</th>
+        </tr>
+    </thead>
+    <tbody *ngFor="let data of students">
+        <tr>
+            <td>{{data.sr}}</td>
+            <td>{{data.name}}</td>
+            <td>{{data.city}}</td>
+        </tr>
+    </tbody>
+</table>
